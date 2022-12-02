@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="135dp"
+        android:text="Parking Receipt"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="365dp"
+        android:layout_height="500dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+
+
+
+        ></View>
+
+    <TextView
+        android:id="@id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/view1"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:text="Sudir man district space"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/view2"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:text="this is the adress"
+        ></TextView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:backgroud="@color/grey"
+        app:layout_constraintTop_toTopOf="@id/view1"
+        app:layout_constraintEnd_toEndOf="@id/view1"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        android:layout_marginTop="80dp"
+        android:translationZ="90dp"
+        ></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/view1"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="90dp"
+        android:text="Arrive"
+        android:textColor="@color/light_grey"
+        ></TextView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/view1"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="120dp"
+        android:text="11:00"
+        android:textSize="20dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/view1"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="120dp"
+        android:text="13:30"
+        android:textSize="20dp"
+        ></TextView></androidx.constraintlayout.widget.ConstraintLayout>

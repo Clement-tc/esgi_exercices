@@ -96,4 +96,30 @@
         android:layout_marginTop="120dp"
         android:text="13:30"
         android:textSize="20dp"
-        ></TextView></androidx.constraintlayout.widget.ConstraintLayout>
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/view1"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="170dp"
+        android:text="Name"
+        android:textSize="14dp"
+        android:textColor="@color/light_grey"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/view1"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="170dp"
+        android:text="Vehicle"
+        android:textSize="14dp"
+        android:textColor="@color/light_grey"
+        ></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
